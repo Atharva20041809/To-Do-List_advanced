@@ -1,0 +1,142 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Task Creator */
+.taskcreater {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.createtaskinput {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.addtask {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.addtask:hover {
+  background: #0056b3;
+}
+
+/* Task Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+}
+
+/* Task Item */
+.task {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.tasktitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.taskdescription {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Buttons */
+.remove, .Edit {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 48%;
+}
+
+.remove {
+  background: #e53935;
+  color: white;
+}
+
+.Edit {
+  background: #ff9800;
+  color: white;
+}
+
+.remove:hover {
+  background: #c62828;
+}
+
+.Edit:hover {
+  background: #f57c00;
+}
+
+/* Editing Mode */
+.editing {
+  background: #fff3cd;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.taskinput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.change {
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+}
+
+.change:hover {
+  background: #218838;
+}
+.searchbar{
+  width: 100%;
+  font-size: 30px;
+}
